@@ -13,12 +13,28 @@ public class SelectActivity extends AppCompatActivity {
         setContentView(R.layout.activity_select);
     }
 
+    public void goToPict (View v) {
+        Intent intent = new Intent (this, PictureActivity.class);
+
+        switch (v.getId()){
+            case R.id.imageButton:
+                intent.putExtra("room",0);
+                break;
+            case R.id.imageButton2:
+                intent.putExtra("room",1);
+                break;
+            case R.id.imageButton3:
+                intent.putExtra("room",2);
+                break;
+            case R.id.imageButton4:
+                intent.putExtra("room",3);
+                break;
+        }
+        startActivity(intent);
+    }
+
     public void back(View v){
         finish();
     }
 
-    public void goToPict (View v) {
-        Intent intent = new Intent (this, PictureActivity.class);
-        startActivity(intent);
-    }
 }

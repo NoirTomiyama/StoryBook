@@ -3,6 +3,7 @@ package com.lifeistech.android.storybook;
 import io.realm.RealmObject;
 
 public class ImageData extends RealmObject {
+
     int id;
     int room;
     String image;

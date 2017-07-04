@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">StoryBook</string>
+    <string name="ex_text">\nStoryBookへようこそ！\nこのアプリは、最大60枚保存できる\nアルバムアプリです！</string>
 </resources>

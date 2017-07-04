@@ -5,21 +5,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/back"
     tools:context="com.lifeistech.android.storybook.MainActivity">
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
+
+    <ImageButton
+        android:id="@+id/imageButton10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
         android:onClick="start"
-        android:text="Start"
-        android:layout_marginRight="100dp"
-        app:layout_constraintRight_toRightOf="parent"
-        android:layout_marginLeft="100dp"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="100dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_marginBottom="100dp" />
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/gobutton"/>
 
 </android.support.constraint.ConstraintLayout>

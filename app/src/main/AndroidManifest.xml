@@ -4,7 +4,9 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:hardwareAccelerated="false"
+        android:icon="@drawable/icon1ldpi"
+        android:largeHeap="true"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
@@ -19,12 +21,10 @@
         </activity>
         <!--PictureActivity横画面固定-->
         <activity android:name=".PictureActivity"
-                  android:parentActivityName="com.lifeistech.android.storybook.MainActivity"
                   android:screenOrientation="landscape">
         </activity>
         <!--SelectActivity横画面固定-->
         <activity android:name=".SelectActivity"
-                  android:parentActivityName="com.lifeistech.android.storybook.PictureActivity"
                   android:screenOrientation="landscape">
         </activity>
     </application>
