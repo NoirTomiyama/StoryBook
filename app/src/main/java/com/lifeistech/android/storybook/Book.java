@@ -2,27 +2,17 @@ package com.lifeistech.android.storybook;
 
 import io.realm.RealmList;
 import io.realm.RealmObject;
+import io.realm.annotations.PrimaryKey;
 
 public class Book extends RealmObject {
 
-    int room;
-    String text;
-    RealmList<ImageData> images;
+    private int room; //roomでBookの種類を判別
 
-    public int getRoom() {
-        return room;
-    }
+    //private String text; //Book一つ一つに存在するテキスト
+    private RealmList<ImageData> images;
 
     public void setRoom(int room) {
         this.room = room;
-    }
-
-    public String getText() {
-        return text;
-    }
-
-    public void setText(String text) {
-        this.text = text;
     }
 
     public RealmList<ImageData> getImages() {
