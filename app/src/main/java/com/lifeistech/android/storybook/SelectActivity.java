@@ -17,7 +17,7 @@ public class SelectActivity extends AppCompatActivity {
         Intent intent = new Intent (this, PictureActivity.class);
 
         switch (v.getId()){
-            case R.id.imageButton:
+            case R.id.imageButton6:
                 intent.putExtra("room",0);
                 break;
             case R.id.imageButton2:

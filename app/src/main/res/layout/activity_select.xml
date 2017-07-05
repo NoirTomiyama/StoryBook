@@ -18,7 +18,7 @@
         tools:layout_editor_absoluteY="8dp">
 
         <ImageButton
-            android:id="@+id/imageButton"
+            android:id="@+id/imageButton6"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -109,7 +109,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toLeftOf="@+id/imageButton5"
-            app:layout_constraintTop_toBottomOf="@+id/imageButton"/>
+            app:layout_constraintTop_toBottomOf="@+id/imageButton6"/>
 
         <ImageButton
             android:id="@+id/imageButton5"
